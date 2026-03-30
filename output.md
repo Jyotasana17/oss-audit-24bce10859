@@ -55,7 +55,7 @@ jeelraithatha8-png@ubuntu-server:~/firefox$ ./03-auditor.sh
 ```
 ---
 
-## 5. Open Source Manifesto Generator (`05-manifesto.sh`)
+## 4. Open Source Manifesto Generator (`05-manifesto.sh`)
 ```bash
 jeelraithatha8-png@ubuntu-server:~/firefox$ ./05-manifesto.sh
 ================================================================================
