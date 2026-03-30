@@ -55,24 +55,6 @@ jeelraithatha8-png@ubuntu-server:~/firefox$ ./03-auditor.sh
 ```
 ---
 
-## 4. Log File Analyzer (`04-logs.sh`)
-```bash
-jeelraithatha8-png@ubuntu-server:~/firefox$ ./04-logs.sh /var/log/syslog error
-================================================================================
-                   firefox AUDIT - LOG FILE ANALYZER              
-================================================================================
-Found 10 occurrences of 'error' in /var/log/syslog.
-
-Last 5 matches:
-Mar 17 14:25:01 ubuntu-server systemd[1]: Started Session 14 of user jeelraithatha8-png.
-Mar 17 14:25:01 ubuntu-server systemd[1]: Started Session 14 of user jeelraithatha8-png.
-Mar 17 14:25:01 ubuntu-server systemd[1]: Started Session 14 of user jeelraithatha8-png.
-Mar 17 14:25:01 ubuntu-server systemd[1]: Started Session 14 of user jeelraithatha8-png.
-Mar 17 14:25:01 ubuntu-server systemd[1]: Started Session 14 of user jeelraithatha8-png.
-================================================================================
-```
----
-
 ## 5. Open Source Manifesto Generator (`05-manifesto.sh`)
 ```bash
 jeelraithatha8-png@ubuntu-server:~/firefox$ ./05-manifesto.sh
